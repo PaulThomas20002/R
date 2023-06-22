@@ -12,12 +12,7 @@
 [1,] "apple"  "orange"    "pear"  "strawberry"
 [2,] "banana" "grape"     "melon" "blueberry" 
 [3,] "cherry" "pineapple" "fig"   "raspberry" 
->     print(tmatrix[rows, columns])
-Error in print(tmatrix[rows, columns]) : object 'rows' not found
->   for (columns in 1:ncol(tmatrix)) {
-+     print(tmatrix[rows, columns])
-+   }
-Error in print(tmatrix[rows, columns]) : object 'rows' not found
+
 > for (rows in 1:nrow(tmatrix)) {
 +     for (columns in 1:ncol(tmatrix)) {
 +         print(tmatrix[rows, columns])
